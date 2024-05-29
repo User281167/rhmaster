@@ -16,8 +16,33 @@
 }
 
 .bg-image {
-    background-image: url("/bg.jpg");
+    background-image: url("/bg.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    @apply font-bold;
+}
+
+h1 {
+    @apply text-3xl;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    @apply text-2xl;
+}
+
+section {
+    @apply p-20 space-y-5;
 }

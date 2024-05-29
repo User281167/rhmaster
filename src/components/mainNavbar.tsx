@@ -14,7 +14,7 @@ export default function MainNavbar() {
     return (
         <Navbar
             isBlurred={false}
-            className="bg-trasparent fixed"
+            className="bg-trasparent absolute inset-x-0 top-0 z-10 px-20"
             height={"6em"}
             maxWidth="full"
         >
